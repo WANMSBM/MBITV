@@ -1,0 +1,42 @@
+#EXTM3U
+
+##### 🇲🇾 RTM #####
+#EXTINF:-1 tvg-id="TV1.my" tvg-name="TV1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3f/TV1_RTM.png" group-title="Malaysia | RTM",TV1
+https://d25tgymtnqzu8s.cloudfront.net/smil:tv1/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TV2.my" tvg-name="TV2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6b/TV2_RTM.png" group-title="Malaysia | RTM",TV2
+https://d25tgymtnqzu8s.cloudfront.net/smil:tv2/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Okey.my" tvg-name="Okey" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4c/Okey_RTM.png" group-title="Malaysia | RTM",Okey
+https://d25tgymtnqzu8s.cloudfront.net/smil:okey/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SukanRTM.my" tvg-name="Sukan RTM" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9f/Sukan_RTM.png" group-title="Malaysia | RTM",Sukan RTM
+https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/playlist.m3u8
+
+#EXTINF:-1 tvg-id="BeritaRTM.my" tvg-name="Berita RTM" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/Berita_RTM.png" group-title="Malaysia | RTM",Berita RTM
+https://d25tgymtnqzu8s.cloudfront.net/smil:berita/playlist.m3u8
+
+##### 🇲🇾 MEDIA PRIMA #####
+#EXTINF:-1 tvg-id="TV3.my" tvg-name="TV3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8f/TV3_Malaysia.png" group-title="Malaysia | Media Prima",TV3
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/my/TV3.m3u8
+
+#EXTINF:-1 tvg-id="NTV7.my" tvg-name="NTV7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/NTV7_logo.png" group-title="Malaysia | Media Prima",NTV7
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/my/NTV7.m3u8
+
+#EXTINF:-1 tvg-id="8TV.my" tvg-name="8TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/78/8TV_logo.png" group-title="Malaysia | Media Prima",8TV
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/my/8TV.m3u8
+
+#EXTINF:-1 tvg-id="TV9.my" tvg-name="TV9" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/02/TV9_Malaysia.png" group-title="Malaysia | Media Prima",TV9
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/my/TV9.m3u8
+
+##### 🇲🇾 ASTRO (FREE CHANNELS) #####
+#EXTINF:-1 tvg-id="AstroAwani.my" tvg-name="Astro Awani" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5a/Astro_Awani.png" group-title="Malaysia | Astro",Astro Awani
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/my/AstroAwani.m3u8
+
+##### 🇲🇾 RELIGIOUS #####
+#EXTINF:-1 tvg-id="TVAlhijrah.my" tvg-name="TV AlHijrah" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/12/TV_Alhijrah.png" group-title="Malaysia | Religious",TV AlHijrah
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/my/TVAlhijrah.m3u8
+
+##### 🇲🇾 NEWS #####
+#EXTINF:-1 tvg-id="Bernama.my" tvg-name="Bernama TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Bernama_TV.png" group-title="Malaysia | News",Bernama TV
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/my/BernamaTV.m3u8
