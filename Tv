@@ -65,7 +65,8 @@ https://cinamex.example.net/live.m3u8
 # SEGMENT: KANAK-KANAK
 ##########################
 #EXTINF:-1 tvg-id="501" tvg-chno="501" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bb/Cartoon_Network_HD_logo.svg" group-title="Kanak-kanak",Cartoon Network
-https://raw.githubusercontent.com/MIFNtechnology/siaranMy/refs/heads/main/channels/CartoonNetwork/index.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=500000,RESOLUTION=1920x1080
+http://exm3u.extraott.com:80/live/GLN5LOU96J/9SWP83GC/191653.m3u8
 
 #EXTINF:-1 tvg-id="502" tvg-chno="502" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" group-title="Kanak-kanak",DisneyChannel
 https://e3.thetvapp.to/hls/DisneyChannelEast/index.m3u8
