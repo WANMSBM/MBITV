@@ -67,11 +67,20 @@ https://cinamex.example.net/live.m3u8
 #EXTINF:-1 tvg-id="501" tvg-chno="501" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bb/Cartoon_Network_HD_logo.svg" group-title="Kanak-kanak",Cartoon Network
 https://raw.githubusercontent.com/MIFNtechnology/siaranMy/refs/heads/main/channels/CartoonNetwork/index.m3u8
 
+#EXTINF:-1 tvg-id="502" tvg-chno="502" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" group-title="Kanak-kanak",DisneyChannel
+https://e3.thetvapp.to/hls/DisneyChannelEast/index.m3u8
+
 #EXTINF:-1 tvg-id="502" tvg-chno="502" tvg-logo="https://en.wikipedia.org/wiki/File:Nick.svg#/media/File:Nickelodeon_2009_logo.svg" group-title="Kanak-kanak",Nickelodeon
-https://flexi-s1.purplecdn.xyz/Nickelodeon/tracks-v1a1/mono.ts.m3u8
+http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
+
+#EXTINF:-1 tvg-id="502" tvg-chno="502" tvg-logo="https://tse4.mm.bing.net/th/id/OIP.xpuN3DOYFDu-85QFlNsKewHaDt?rs=1&pid=ImgDetMain&o=7&rm=3" group-title="Kanak-kanak",LEGO Kids TV
+https://a1xs.vip/100054
 
 #EXTINF:-1 tvg-id="502" tvg-chno="502" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e0/Nick_Jr._logo_2023.svg" group-title="Kanak-kanak",NickJr
 https://flexi-s1.purplecdn.xyz/NickJr/tracks-v1a1/mono.ts.m3u8
+
+#EXTINF:-1 tvg-id="502" tvg-chno="502" tvg-logo="https://e7.pngegg.com/pngimages/618/786/png-clipart-video-youtube-animated-cartoon-animated-series-mr-bean-dance.png" group-title="Kanak-kanak",MrBean
+https://amg00627-amg00627c28-rakuten-uk-3984.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanukcc-rakutenuk/playlist.m3u8
 
 #EXTINF:-1 tvg-id="503" tvg-chno="503" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/28/2009_Disney_XD_logo.svg" group-title="Kanak-kanak",DISNEY_XD
 http://fl1.moveonjoy.com/DISNEY_XD/index.m3u8
@@ -83,10 +92,10 @@ https://newidco-babysharktv-1-eu.rakuten.wurl.tv/playlist.m3u8
 # SEGMENT: DOKUMENTARI
 ##########################
 #EXTINF:-1 tvg-id="601" tvg-chno="601" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/Natgeologo.svg" group-title="Dokumentari",National Geographic
-http://78.130.250.2:8023/play/a02e/index.m3u8
+https://fl1.moveonjoy.com/National_Geographic/index.m3u8
 
 #EXTINF:-1 tvg-id="601" tvg-chno="601" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/National_Geographic_Wild_logo.svg" group-title="Dokumentari",National Geographic wild
-http://78.130.250.2:8023/play/a02c/index.m3u8
+https://fl1.moveonjoy.com/Nat_Geo_Wild/index.m3u8
 
 #EXTINF:-1 tvg-id="602" tvg-chno="602" tvg-logo="https://example.com/logo_segment/dokumentari.png" group-title="Dokumentari",Discovery Channel
 https://discovery.example.net/live.m3u8
