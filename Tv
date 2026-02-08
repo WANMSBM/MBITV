@@ -1,63 +1,53 @@
 #EXTM3U x-tvg-url="https://freeview.github.io/iptv/epg/tv.xml"
 
 ################## UMUM ##################
-#EXTINF:-1 tvg-id="TV1.my" tvg-name="TV1 Malaysia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3b/TV1_RTM_Logo_2021.png" group-title="Umum",TV1 Malaysia
+#EXTINF:-1 tvg-id="TV1" tvg-name="TV1 Malaysia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3b/TV1_RTM_Logo_2021.png" group-title="Umum",TV1 Malaysia
 http://streamer1.cf.aws.stream.my/live/mp4:rtm-ch001.stream_360p/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TV2.my" tvg-name="TV2 Malaysia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/09/TV2_RTM_Logo_2021.png" group-title="Umum",TV2 Malaysia
+#EXTINF:-1 tvg-id="TV2" tvg-name="TV2 Malaysia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/09/TV2_RTM_Logo_2021.png" group-title="Umum",TV2 Malaysia
 http://streamer1.cf.aws.stream.my/live/mp4:rtm-ch003.stream_360p/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TV3.my" tvg-name="TV3 Malaysia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ed/TV3_Malaysia_Logo.png" group-title="Umum",TV3 Malaysia
+#EXTINF:-1 tvg-id="TV3" tvg-name="TV3 Malaysia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ed/TV3_Malaysia_Logo.png" group-title="Umum",TV3 Malaysia
 http://tv3liveios-i.akamaihd.net/hls/live/205900/ios/tv3live/master.m3u8
 
-#EXTINF:-1 tvg-id="NTV7.my" tvg-name="NTV7 Malaysia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/07/NTV7_Malaysia_logo.png" group-title="Umum",NTV7 Malaysia
-http://ntv7liveios-i.akamaihd.net/hls/live/205902/ios/ntv7live/master.m3u8
-
-#EXTINF:-1 tvg-id="8TV.my" tvg-name="8TV Malaysia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f7/8tv_Malaysia_logo.png" group-title="Umum",8TV Malaysia
-http://8tvliveios-i.akamaihd.net/hls/live/205901/ios/8tvlive/master.m3u8
-
-#EXTINF:-1 tvg-id="TV9.my" tvg-name="TV9 Malaysia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/66/TV9_Malaysia_logo.png" group-title="Umum",TV9 Malaysia
+################## MOVIE ##################
+#EXTINF:-1 tvg-id="TV9" tvg-name="TV9 Malaysia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3c/TV9_Malaysia_Logo.png" group-title="Movie",TV9 Malaysia
 http://tv9liveios-i.akamaihd.net/hls/live/205903/ios/tv9live/master.m3u8
 
-################## MOVIE ##################
-#EXTINF:-1 tvg-id="TV9Movie.my" tvg-name="TV9 Movie" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/66/TV9_Malaysia_logo.png" group-title="Movie",TV9 Movie
-http://tv9liveios-i.akamaihd.net/hls/live/205903/ios/tv9movie/master.m3u8
-
-################## KANAK-KANAK ##################
-#EXTINF:-1 tvg-id="TVi.my" tvg-name="TVi Malaysia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/45/TVi_logo.png" group-title="Kanak-kanak",TVi Malaysia
-http://streamer1.cf.aws.stream.my/live/mp4:rtm-ch005.stream_360p/playlist.m3u8
-
-################## DOKUMENTARI ##################
-#EXTINF:-1 tvg-id="BernamaTV.my" tvg-name="Bernama TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a3/Bernama_TV_Logo.png" group-title="Dokumentari",Bernama TV
+#EXTINF:-1 tvg-id="BernamaTV" tvg-name="Bernama TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a3/Bernama_TV_Logo.png" group-title="Movie",Bernama TV
 http://d22b8vh21p20bg.cloudfront.net/mylive/smil:bernama2_all.smil/playlist.m3u8
 
+################## KANAK-KANAK ##################
+#EXTINF:-1 tvg-id="CBeebies" tvg-name="CBeebies" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/CBeebies_logo_2023.png" group-title="Kanak-kanak",CBeebies
+https://liveapptv.stream/cbeebies.m3u8
+
+#EXTINF:-1 tvg-id="NickJr" tvg-name="Nick Jr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e5/Nick_Jr._Logo.png" group-title="Kanak-kanak",Nick Jr
+https://liveapptv.stream/nickjr.m3u8
+
+################## DOKUMENTARI ##################
+#EXTINF:-1 tvg-id="NationalGeographic" tvg-name="National Geographic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/65/National_Geographic_Channel_logo.png" group-title="Dokumentari",National Geographic
+https://liveapptv.stream/natgeo.m3u8
+
+#EXTINF:-1 tvg-id="BBCWorld" tvg-name="BBC World News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bc/BBC_World_News_2021.png" group-title="Dokumentari",BBC World News
+https://liveapptv.stream/bbcworld.m3u8
+
 ################## AGAMA ##################
-#EXTINF:-1 tvg-id="TVAlhijrah.my" tvg-name="TV AlHijrah" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4c/TV_Alhijrah_Logo.png" group-title="Agama",TV AlHijrah
+#EXTINF:-1 tvg-id="TVAlhijrah" tvg-name="TV AlHijrah" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4c/TV_Alhijrah_Logo.png" group-title="Agama",TV AlHijrah
 http://streamer1.cf.aws.stream.my/live/mp4:rtm-ch010.stream_360p/playlist.m3u8
 
-#EXTINF:-1 tvg-id="PeaceTV.my" tvg-name="Peace TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/36/Peace_TV_Logo.png" group-title="Agama",Peace TV
+#EXTINF:-1 tvg-id="PeaceTV" tvg-name="Peace TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/36/Peace_TV_Logo.png" group-title="Agama",Peace TV
 https://live.peacetv.tv/hls/peacetv.m3u8
 
 ################## BERITA ##################
-#EXTINF:-1 tvg-id="AstroAwani.my" tvg-name="Astro Awani" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/49/Astro_Awani_Logo.png" group-title="Berita",Astro Awani
-http://streamer1.cf.aws.stream.my/live/mp4:astro-awani.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="AstroAwani" tvg-name="Astro Awani" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/49/Astro_Awani_Logo.png" group-title="Berita",Astro Awani
+https://liveapptv.stream/astro_awani.m3u8
+
+#EXTINF:-1 tvg-id="AlJazeera" tvg-name="Al Jazeera English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/75/Al_Jazeera_English_Logo.png" group-title="Berita",Al Jazeera English
+https://live-hls-web-aje.getaj.net/AJE/01.m3u8
 
 ################## SUKAN ##################
-#EXTINF:-1 tvg-id="RTMSukan.my" tvg-name="Sukan RTM" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/02/Sukan_RTM_Logo.png" group-title="Sukan",Sukan RTM
+#EXTINF:-1 tvg-id="RTMSukan" tvg-name="Sukan RTM" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/02/Sukan_RTM_Logo.png" group-title="Sukan",Sukan RTM
 http://streamer1.cf.aws.stream.my/live/mp4:rtm-ch022.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-id="AstroArena.my" tvg-name="Astro Arena" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/18/Astro_Arena_Logo.png" group-title="Sukan",Astro Arena
+#EXTINF:-1 tvg-id="AstroArena" tvg-name="Astro Arena" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/18/Astro_Arena_Logo.png" group-title="Sukan",Astro Arena
 https://liveapptv.stream/astro_arena.m3u8
-
-################## RADIO FM MALAYSIA ##################
-#EXTINF:-1 tvg-id="NasionalFM.my" tvg-name="Radio Nasional FM" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/69/Radio_Nasional_Logo.png" group-title="Radio",Radio Nasional FM
-http://streamer1.cf.aws.stream.my/radio/nasionalfm/playlist.m3u8
-
-#EXTINF:-1 tvg-id="EraFM.my" tvg-name="Era FM" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5c/Era_FM_Logo.png" group-title="Radio",Era FM
-http://streamer1.cf.aws.stream.my/radio/erafm/playlist.m3u8
-
-#EXTINF:-1 tvg-id="SinarFM.my" tvg-name="Sinar FM" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/41/Sinar_FM_Logo.png" group-title="Radio",Sinar FM
-http://streamer1.cf.aws.stream.my/radio/sinarfm/playlist.m3u8
-
-#EXTINF:-1 tvg-id="HotFM.my" tvg-name="Hot FM" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1c/Hot_FM_Logo.png" group-title="Radio",Hot FM
-http://streamer1.cf.aws.stream.my/radio/hotfm/playlist.m3u8
