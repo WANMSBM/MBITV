@@ -59,7 +59,7 @@ http://safetv.vip:8080/live/8gULQeqH3I/kbuahRdUJV/11796.m3u8
 https://t.freetv.fun/live/hbo-xtreme.m3u8
 
 #EXTINF:-1 tvg-id="403" tvg-chno="403" tvg-logo="https://example.com/logo_segment/movie.png" group-title="Movie",Cinamex (Sample)
-https://cinamex.example.net/live.m3u8
+http://cdn.ebound.tv:1935/tv/hbo/playlist.m3u8
 
 ##########################
 # SEGMENT: KANAK-KANAK
