@@ -59,7 +59,13 @@ http://safetv.vip:8080/live/8gULQeqH3I/kbuahRdUJV/11796.m3u8
 https://t.freetv.fun/live/hbo-xtreme.m3u8
 
 #EXTINF:-1 tvg-id="403" tvg-chno="403" tvg-logo="https://example.com/logo_segment/movie.png" group-title="Movie",Cinamex (Sample)
-http://cdn.ebound.tv:1935/tv/hbo/playlist.m3u8
+ChiSheng9
+
+#EXTINF:-1 tvg-id="HBO" ch-number="411" group-title="Movies" tvg-logo="http://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch115_170_122",411 HBO
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://linearjitp-playback-astro.astradamy.com/dash-ck/linear/2304
+http://linearjitp-playback.astro.com.my/dash-wv/linear/2304/default_ott.mpd
+
 
 ##########################
 # SEGMENT: KANAK-KANAK
@@ -100,3 +106,5 @@ https://fl1.moveonjoy.com/Nat_Geo_Wild/index.m3u8
 #EXTINF:-1 tvg-id="602" tvg-chno="602" tvg-logo="https://example.com/logo_segment/dokumentari.png" group-title="Dokumentari",Discovery Channel
 https://discovery.example.net/live.m3u8
 
+
+ 
