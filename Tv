@@ -106,7 +106,8 @@ http://safetv.vip:8080/live/8gULQeqH3I/kbuahRdUJV/11796.m3u8
 https://t.freetv.fun/live/hbo-xtreme.m3u8
 
 #EXTINF:-1 tvg-id="403" tvg-chno="403" tvg-logo="http://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch113_170_122" group-title="Movie",Cinamex (Sample)
-https://live.astradamy.com/hbogo/cinemax/index.m3u8
+https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(Moonbug)/master.mpd
+
 
 #EXTINF:-1 tvg-id="HBO" ch-number="411" group-title="Movies" tvg-logo="http://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch115_170_122",411 HBO
 #KODIPROP:inputstream.adaptive.license_type=clearkey
