@@ -10,7 +10,10 @@ https://raw.githubusercontent.com/MIFNtechnology/siaranMy/refs/heads/main/channe
 https://raw.githubusercontent.com/MIFNtechnology/siaranMy/refs/heads/main/channels/Tv2/index.m3u8
 
 #EXTINF:-1 tvg-id="103" tvg-chno="103" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f5/TV3_%28Malaysia%29.svg" group-title="Umum",TV3
-https://raw.githubusercontent.com/MIFNtechnology/siaranMy/refs/heads/main/channels/Tv3/index.m3u8
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"3bc3f0e518aed92e80a98118e5bc2c10": "5fce364fbc4499856597b19a96f44648"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; CPH1819 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/135.0.7049.99 Mobile Safari/537.36
+https://linearjitp-playback.astro.com.my/dash-wv/linear/809/default_primary.mpd
 
 #EXTINF:-1 tvg-id="104" tvg-chno="104" tvg-logo="https://ms.wikipedia.org/wiki/TV6#/media/Fail:TV6_RTM.png" group-title="Umum",TV6
 https://raw.githubusercontent.com/MIFNtechnology/siaranMy/refs/heads/main/channels/Tv6/index.m3u8
@@ -32,11 +35,20 @@ http://linearjitp-playback.astro.com.my/dash-wv/linear/1000/default_ott.mpd
 #EXTINF:-1 tvg-id="AstroWarna" group-title="Astro" ch-number="107" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/5e/Warna.png/revision/latest?cb=20200823172850",107 Astro Warna A
 http://axcestv.vip:8080/freeview/axcestv/456
 
+#EXTINF:-1 group-title="Umum" tvg-id="OKEY" tvg-name="Okey Tv" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/OkeyTv.png",Okey Tv
+https://mifntechnology.github.io/siaranMy/channels/TvOkey/index.m3u8
+
 ##########################
 # SEGMENT: BERITA
 ##########################
 #EXTINF:-1 tvg-id="201" tvg-chno="201" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/21/Astro_Awani_%282025%29.png" group-title="Berita",AstroAwani
 https://raw.githubusercontent.com/MIFNtechnology/siaranMy/refs/heads/main/channels/AstroAwani/index.m3u8
+
+#EXTINF:-1 group-title="BERITA" tvg-id="TVAlhijrah" tvg-name="TvAlhijrah" tvg-logo="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/TvAlhijrah.png", Tv Alhijrah
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"41a42fb5af457501c11bb9b158d5a110": "57a8d6f9e3832887db18ea6071118736"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; CPH1819 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/135.0.7049.99 Mobile Safari/537.36
+https://linearjitp-playback.astro.com.my/dash-wv/linear/1113/default_ott.mpd
 
 #EXTINF:-1 tvg-id="202" tvg-chno="202" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/Logo_Berita_RTM.png" group-title="Berita",BeritaRTM
 https://raw.githubusercontent.com/MIFNtechnology/siaranMy/refs/heads/main/channels/BeritaRTM/index.m3u8
@@ -81,8 +93,13 @@ http://linearjitp-playback.astro.com.my/dash-wv/linear/2304/default_ott.mpd
 ##########################
 # SEGMENT: KANAK-KANAK
 ##########################
-#EXTINF:-1 tvg-id="501" tvg-chno="501" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bb/Cartoon_Network_HD_logo.svg" group-title="Kanak-kanak",Cartoon Network
-http://exm3u.extraott.com:80/live/GLN5LOU96J/9SWP83GC/191653.m3u8
+
+#EXTINF:-1 tvg-id="502" tvg-chno="502" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/CN.png" group-title="Kanak-kanak",CartoonNetwork
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"1a05bebf706408431a390c3f9f40f410": "89c5ff9f8e65c7fe966afbd2f9128e5f"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; CPH1819 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/135.0.7049.99 Mobile Safari/537.36
+https://linearjitp-playback.astro.com.my/dash-wv/linear/509/default_ott.mpd
+#https://mifntechnology.github.io/siaranMy/channels/CartoonNetwork/index.m3u8
 
 #EXTINF:-1 tvg-id="502" tvg-chno="502" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" group-title="Kanak-kanak",DisneyChannel
 https://e3.thetvapp.to/hls/DisneyChannelEast/index.m3u8
@@ -117,133 +134,3 @@ https://fl1.moveonjoy.com/Nat_Geo_Wild/index.m3u8
 #EXTINF:-1 tvg-id="602" tvg-chno="602" tvg-logo="https://example.com/logo_segment/dokumentari.png" group-title="Dokumentari",Discovery Channel
 https://discovery.example.net/live.m3u8
 
-#EXTINF:-1 tvg-id=Nat Geo HD tvg-name=National Geographic HD group-title=”ASTRO” tvg-logo=2204956.png, National Geographic HD
-http://202.75.23.35/live/ch38/03.m3u8
-
-#EXTINF:-1 tvg-id=Nat Geo Wild HD tvg-name=Nat Geo Wild HD group-title=”ASTRO” tvg-logo=5144421.png, Nat Geo Wild HD
-http://202.75.23.35/live/ch39/03.m3u8
-
-#EXTINF:-1 tvg-id=Nat Geo Wild HD tvg-name=Nat Geo Wild HD group-title=”ASTRO” tvg-logo=5144421.png, Nat Geo Wild HD
-http://202.75.23.35/live/ch39/03.m3u8
-
-#EXTINF:-1 tvg-id=Travel Channel tvg-name=Travel Channel group-title=”ASTRO” tvg-logo=6172282.png, TRAVEL Channel
-http://202.75.23.35:1400/live/ch41/03.m3u8
-
-#EXTINF:-1 tvg-id=One HD tvg-name=One HD tvg-logo=”one.png” group-title=”ASTRO”, One HD
-http://motorsport.hopto.org:8080/
-
-#EXTINF:-1 tvg-id=Fox 1 HD tvg-name=Fox 1 HD tvg-logo=”fox1.png” group-title=”ASTRO”, FOX 1 HD
-http://200.76.77.237/LIVE/H01/CANAL415/PROFILE03.m3u8?
-
-#EXTINF:-1 tvg-id=Fox Action HD tvg-name=Fox Action HD tvg-logo=”foxact.png” group-title=”ASTRO”, FOX ACTION HD
-http://200.76.77.237/LIVE/H01/CANAL416/PROFILE03.m3u8?
-
-#EXTINF:-1 tvg-id=Fox Movies HD tvg-name=Fox Movies HD tvg-logo=”foxm.png” group-title=”ASTRO”, FOX MOVIES HD
-http://200.76.77.237/LIVE/H01/CANAL417/PROFILE03.m3u8?
-
-#EXTINF:-1 tvg-id=ESPN HD tvg-name=ESPN HD tvg-logo=”espn.png” group-title=”ASTRO”, ESPN HD
-http://200.76.77.237/LIVE/H01/CANAL516/PROFILE03.m3u8?
-
-#EXTINF:-1 tvg-id=Fox Sport tvg-name=Fox sport tvg-logo=”foxsport.png” group-title=”ASTRO”, FOX SPORTS
-http://200.76.77.237/LIVE/H01/CANAL522/PROFILE03.m3u8?
-
-#EXTINF:-1 tvg-id=Fox Sport tvg-name=Fox sport tvg-logo=”foxsport.png” group-title=”ASTRO”, FOX SPORTS 2
-http://200.76.77.237/LIVE/H01/CANAL527/PROFILE03.m3u8?
-
-#EXTINF:-1 tvg-id=AXN HD tvg-name=AXN HD tvg-logo=”axnhd.png” group-title=”ASTRO”, AXN HD
-http://200.76.77.237/LIVE/H01/CANAL213/PROFILE03.m3u8?
-
-#EXTINF:-1 tvg-id=Fox tvg-name=Fox HD tvg-logo=”fox.png” group-title=”ASTRO”, FOX
-http://200.76.77.237/LIVE/H01/CANAL251/PROFILE03.m3u8?
-
-#EXTINF:-1 tvg-id=BBC tvg-name=BBC HD tvg-logo=”BBC.png” group-title=”ASTRO”, BBC
-http://200.76.77.237/LIVE/H01/CANAL253/PROFILE03.m3u8?
-
-#EXTINF:-1 tvg-id=Discovery Channel HD tvg-name=Discovery Channel HD tvg-logo=”discoveryHD.png” group-title=”ASTRO”, Discovery Channel HD
-http://hlsstr01.svc.iptv.rt.ru/hls/CH_C05_DISCOVERYCHANNELHD/variant.m3u8
-
-#EXTINF:-1 tvg-id=Discovery Science HD tvg-name=Discovery Science HD tvg-logo=”scienceHD.png” group-title=”ASTRO”, Discovery Science HD
-http://hlsstr01.svc.iptv.rt.ru/hls/CH_C05_DISCOVERYSCIENCEHD/variant.m3u8
-
-#EXTINF:-1 tvg-id=TLC tvg-name=TLC tvg-logo=”TLC.png” group-title=”ASTRO”, TLC
-http://202.75.23.34/live/ch35/01.m3u8
-
-#EXTINF:-1 tvg-id=RTM Parliament tvg-name=RTM_Parliament tvg-logo=”RTM Parlimen.png” group-title=”RTM”,RTM Parliament
-http://supercharged.stream.my/live/ngrp:rtm-ch009.stream_all/playlist.m3u8
-
-#EXTINF:-1 tvg-id=TVi tvg-name=TVi tvg-logo=”TVi.png” group-title=”RTM”,TVi
-http://supercharged.stream.my/live/ngrp:rtm-ch005.stream_all/playlist.m3u8
-
-#EXTINF:-1 tvg-id=1News tvg-name=1News tvg-logo=”1News.png” group-title=”RTM”,1News
-http://supercharged.stream.my/live/ngrp:rtm-ch020.stream_all/playlist.m3u8
-
-#EXTINF:-1 tvg-id=RTM Muzik Aktif tvg-name=RTM_Muzik_Aktif tvg-logo=”muzikaktif.png” group-title=”RTM”,RTM Muzik Aktif
-http://supercharged.stream.my/live/ngrp:rtm-ch006.stream_all/playlist.m3u8
-
-#EXTINF:-1 tvg-id=RTM Parliament tvg-name=RTM_Parliament tvg-logo=”RTM Parlimen.png” group-title=”RTM”,RTM Parliament
-http://supercharged.stream.my/live/ngrp:rtm-ch009.stream_all/playlist.m3u8
-
-#EXTINF:-1,ITV (UK) [COLOR green] Brasil [/COLOR][COLOR yellow]2014[/COLOR]
-rtmpe://46.246.124.26:1935/redirect playpath=itv swfUrl=http://www.hdcast.org/players.swf pageUrl=http://www.hdcast.org/embedlive2.php?u=itv&vw=600&vh=450&domain=strmh24.com live=true timeout=10 token=Fo5_n0w?U.rA6l3-70w47ch
-
-#EXTINF:-1,ESPN (US) [COLOR green] Brasil [/COLOR][COLOR yellow]2014[/COLOR]
-rtmp://31.7.58.250:1935/stream/5654ygt.stream swfUrl=http://thecdn.04stream.com/p/bbp.swf live=1 pageUrl=http://thecdn.04stream.com/live=1
-
-#EXTINF:-1,SBS One (Australia) [COLOR green] Brasil [/COLOR][COLOR yellow]2014[/COLOR]
-http://motorsport.hopto.org:8080
-
-#EXTINF:-1,TV2 HD (Norway – HD On Gotham Only) [COLOR green] Brasil [/COLOR][COLOR yellow]2014[/COLOR]
-http://hls.akamai.tv2.no/wzlive/_definst_/amlst:LS1/.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-id=FOODNETWORK tvg-name=FOODNETWORK tvg-logo=”FOODNETWORK.png” group-title=”ASTRO”, FOODNETWORK
-http://83.139.104.105/Content/HLS/Live/Channel(food_network)/Stream(03)/index.m3u8
-
-#EXTINF:-1 tvg-id=Arirang tvg-name=Arirang tvg-logo=”Arirang.png” group-title=”KOREA”, Arirang
-http://worldlive-ios.arirang.co.kr/arirang/arirangtvworldios.mp4.m3u8
-
-#EXTINF:-1 tvg-id=MBC tvg-name=MBC tvg-logo=”MBC.png” group-title=”KOREA”, MBC
-rtmp://fms.mbcgn.kr:1935/livepkgr_j_tv playpath=livestream2 swfUrl=http://www.mbcgn.kr/onair/swfs/StrobeMediaPlayback.swf live=1 pageUrl=http://www.mbcgn.kr/onair/player.php?id=TVJJ
-
-#EXTINF:-1 tvg-id=KCTV tvg-name=KCTV tvg-logo=”KCTV.png” group-title=”KOREA”, KCTV
-rtsp://media2.kctvjeju.com/live5
-
-#EXTINF:-1 tvg-id=MetroTv tvg-name=MetroTv tvg-logo=”MetroTv.png” group-title=”Indonesia”, MetroTv
-http://202.75.23.33:1400/live/ch22/01.m3u8
-
-#EXTINF:-1 tvg-id=TRANSTV tvg-name=TRANSTV tvg-logo=”TRANSTV.png” group-title=”Indonesia”, TRANSTV
-http://202.75.23.33:1400/live/ch23/01.m3u8
-
-#EXTINF:-1 tvg-id=TRANS7 tvg-name=TRANS7 tvg-logo=”TRANS7.png” group-title=”Indonesia”, TRANS7
-http://202.75.23.33:1400/live/ch24/01.m3u8
-
-#EXTINF:-1 tvg-id=TVRI tvg-name=TVRI tvg-logo=”TVRI.png” group-title=”Indonesia”, TVRI
-http://202.75.23.33:1400/live/ch25/01.m3u8
-
-#EXTINF:-1 tvg-id=globatv tvg-name=globatv tvg-logo=”globaltv.png” group-title=”Indonesia”, globatv
-http://edge-id.wow.mivo.tv/mivotvjkt/globaltv2_240p/chunklist_w498311651.m3u8
-
-#EXTINF:-1 tvg-id=globatv2 tvg-name=globatv2 tvg-logo=”globaltv.png” group-title=”Indonesia”, globatv2
-http://edge-id.wow.mivo.tv/mivotvjkt/globaltv2_240p/chunklist_w1653294433.m3u8
-
-#EXTINF:-1 tvg-id=RCTI” tvg-name=RCTI tvg-logo=”RCTI.png” group-title=”Indonesia”, RCTI
-rtmp://edge.okeinfo.net/live/mncoke1_512.stream
-
-#EXTINF:-1 tvg-id=ANTV3? tvg-name=ANTV3 tvg-logo=”ANTV3.png” group-title=”Indonesia”, ANTV3
-rtmp://202.129.216.27:1970/antv/antv3
-
-#EXTINF:-1 tvg-id=TV0NE” tvg-name=TV0NE” tvg-logo=”TV0NE.png” group-title=”Indonesia”, TV0NE
-rtmp://118.97.167.19/jhos/tvone
-
-#EXTINF:-1 tvg-id=RCTV” tvg-name=RCTV” tvg-logo=”RCTV.png” group-title=”Indonesia”, RCTV
-rtmp://edge.okeinfo.net/live/mncoke1_512.stream
-
-#EXTINF:-1 tvg-id=KOMPAS_TV” tvg-name=KOMPAS_TV” tvg-logo=”KOMPAS_TV.png” group-title=”Indonesia”, KOMPAS_TV
-rtmp://202.137.11.52:1935/jakarta/offair.sdp
-
-#EXTINF:-1 $ExtFilter=”tv endon”,indorsiar
-rtmp://119.235.249.58:1935/indostartv/live
-
-#EXTINF:-1, Nickelodeon SD
-http://202.75.23.36:1400/live/ch43/03.m3u8
-
- 
