@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U  x-tvg-url="https://raw.githubusercontent.com/AqFad2811/epg/main/epg.xml",tvg-url="https://raw.githubusercontent.com/AqFad2811/epg/main/compressed/epg.xml.gz" refresh="1440" max-conn="1" refresh="24"
 
 ##########################
 # SEGMENT: UMUM
@@ -15,14 +15,27 @@ https://raw.githubusercontent.com/MIFNtechnology/siaranMy/refs/heads/main/channe
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; CPH1819 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/135.0.7049.99 Mobile Safari/537.36
 https://linearjitp-playback.astro.com.my/dash-wv/linear/809/default_primary.mpd
 
-#EXTINF:-1 tvg-id="104" tvg-chno="104" tvg-logo="https://ms.wikipedia.org/wiki/TV6#/media/Fail:TV6_RTM.png" group-title="Umum",TV6
-https://raw.githubusercontent.com/MIFNtechnology/siaranMy/refs/heads/main/channels/Tv6/index.m3u8
+#EXTINF:-1 tvg-id="104" tvg-chno="104" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/Tv6.png" group-title="Umum",TV6
+https://mifntechnology.github.io/siaranMy/channels/Tv6/index.m3u8
 
-#EXTINF:-1 tvg-id="104" tvg-chno="104" tvg-logo="https://en.wikipedia.org/wiki/File:8TV_my.svg#/media/File:8TV_(Malaysia)_logo_in_English.svg" group-title="Umum",8TV
-https://raw.githubusercontent.com/MIFNtechnology/siaranMy/refs/heads/main/channels/8tv/index.m3u8
+#EXTINF:-1 tvg-id="104" tvg-chno="104" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/8tv.png" group-title="Umum",8TV
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"0cb7980e9d1d8957f9a293ed96342410": "11da1ad368d0cacffe4824b6b35e22b7"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; CPH1819 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/135.0.7049.99 Mobile Safari/537.36
+https://linearjitp-playback.astro.com.my/dash-wv/linear/911/default_primary.mpd
 
-#EXTINF:-1 tvg-id="109" tvg-chno="109" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/TV9_%28Malaysia%29_logo.svg" group-title="Umum",TV9
-https://raw.githubusercontent.com/MIFNtechnology/siaranMy/refs/heads/main/channels/Tv9/index.m3u8
+#EXTINF:-1 tvg-id="109" tvg-chno="109" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/Tv9.png" group-title="Umum",TV9
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"27828727f0a3a0b4fbc668378ccf8c10": "958e9cb7389e20948de5a542d2729ecf"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; CPH1819 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/135.0.7049.99 Mobile Safari/537.36
+https://linearjitp-playback.astro.com.my/dash-wv/linear/705/default_primary.mpd
+
+#EXTINF:-1 tvg-id="109" tvg-chno="110" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/DidikTv.png" group-title="Umum",DidikTv KPM
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"e509735b5f89750d42ace2410ead7210": "1726083509d570b5de4730ab9f338cc3"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; CPH1819 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/135.0.7049.99 Mobile Safari/537.36
+https://linearjitp-playback.astro.com.my/dash-wv/linear/707/default_ott.mpd
+
 
 #EXTINF:-1 group-title="Astro" tvg-id="AstroRia" ch-number="104" tvg-logo="https://aqfadtv.astradamy.com/logos/AstroRia.png",104 Astro Ria
 http://axcestv.vip:8080/freeview/axcestv/453
@@ -53,8 +66,19 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/1113/default_ott.mpd
 #EXTINF:-1 tvg-id="202" tvg-chno="202" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/Logo_Berita_RTM.png" group-title="Berita",BeritaRTM
 https://raw.githubusercontent.com/MIFNtechnology/siaranMy/refs/heads/main/channels/BeritaRTM/index.m3u8
 
-#EXTINF:-1 tvg-id="202" tvg-chno="202" tvg-logo="https://commons.wikimedia.org/wiki/File:Bernama_TV.png" group-title="Berita",Bernama TV
-https://raw.githubusercontent.com/MIFNtechnology/siaranMy/refs/heads/main/channels/Bernama/index.m3u8
+#EXTINF:-1 tvg-id="203" tvg-chno="202" tvg-logo="https://commons.wikimedia.org/wiki/File:Bernama_TV.png" group-title="Berita",Bernama TV
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"1406bbf218ca14f967034fcf4abf7710": "39a27aa2cc84a29b665fcc4dbf9c54b6"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; CPH1819 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/135.0.7049.99 Mobile Safari/537.36
+https://linearjitp-playback.astro.com.my/dash-wv/linear/1114/default_ott.mpd
+#https://mifntechnology.github.io/siaranMy/channels/Bernama/index.m3u8
+
+#EXTINF:-1 group-title="Berita" tvg-id="TVS" tvg-name="TVS" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/Tvs.png",TVS
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"c3e956b38ae993be1494c7cfa17b1110": "55ccaee886b340dd901f4bf8dd9d3a6a"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; CPH1819 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/135.0.7049.99 Mobile Safari/537.36
+https://linearjitp-playback.astro.com.my/dash-wv/linear/5021/default_ott.mpd
+#https://mifntechnology.github.io/siaranMy/channels/Tvs/index.m3u8
 
 #EXTINF:-1 tvg-id="203" tvg-chno="203" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b1/CNN.svg" group-title="Berita",CNN International
 https://amg00378-mavtv-amg00378c2-rakuten-us-1048.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-rakutenus/playlist.m3u8
